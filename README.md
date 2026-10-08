@@ -5,7 +5,8 @@
 ## Setup
 
 ```bash
-cd /Users/skat/Projects/mcp-server
+cd /Users/skat/Projects/archive/devtools/mcp-server
+# 兼容软链：cd /Users/skat/Projects/mcp-server
 uv sync
 cp .env.example .env
 # Edit .env with your testnet private key
