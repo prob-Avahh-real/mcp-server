@@ -20,3 +20,29 @@ Thumbs.db
 # Build
 dist/
 *.egg-info/
+
+# Hygiene & build artifacts
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+node_modules/
+.npm-cache/
+.build/
+DerivedData/
+.gradle/
+android/app/build/
+**/android/app/build/
+android/.gradle/
+**/android/.gradle/
+shared/build/
+**/shared/build/
+composeApp/build/
+**/composeApp/build/
+.expo/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.apk
+*.aab
+*.ipa
